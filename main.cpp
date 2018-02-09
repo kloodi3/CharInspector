@@ -1,4 +1,4 @@
-//Author:
+//Author: Khaled Alrashdi
 #include<iostream>
 
 using namespace std;
@@ -27,9 +27,9 @@ else if (letter>='a' && letter<='z') {
 else { 
   //in all other cases...
   cout<<letter<<"?! Pssh. What are you talking about?\n";
-  
+}  
   //no matter what they enter...
   cout<<"The ASCII value is: "<<(int)letter<<endl;
-}
+
   return 0;
 }
